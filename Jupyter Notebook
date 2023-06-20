@@ -1,0 +1,179 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "d97f059e-9129-4e01-ac34-d925a551413c",
+   "metadata": {},
+   "source": [
+    "# Data Science Tools and Ecosystem\n",
+    "In this notebook, Data Science Tools and Ecosystem are summarized."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c4e75de2-12db-4efc-9160-32ee06a58283",
+   "metadata": {
+    "tags": []
+   },
+   "source": [
+    "#### Some of the popular languages that Data Scientists use are:\n",
+    "\n",
+    "1. **Python**: Python is one of the most widely used programming languages in data science. It has a rich ecosystem of libraries and frameworks specifically designed for data analysis, such as NumPy, Pandas, and SciPy. Python's simplicity, versatility, and extensive community support make it a popular choice among data scientists.\n",
+    "\n",
+    "2. **R**: R is another popular language among data scientists, particularly in the field of statistical analysis. It provides a comprehensive set of tools for data manipulation, visualization, and statistical modeling. R has a strong community and a wide range of packages like ggplot2 and dplyr that make it suitable for statistical analysis and data exploration.\n",
+    "\n",
+    "3. **SQL**: While not a programming language in the traditional sense, SQL (Structured Query Language) is essential for working with relational databases. Data scientists often use SQL to extract, manipulate, and analyze data stored in databases. SQL is crucial for querying large datasets efficiently and performing database operations.\n",
+    "\n",
+    "4. **Julia**: Julia is a relatively new programming language that is gaining popularity in the data science community. It is designed for high-performance numerical computing and offers a combination of dynamic typing and speed similar to compiled languages like C and Fortran. Julia is well-suited for tasks involving large-scale data processing and mathematical modeling.\n",
+    "\n",
+    "5. **MATLAB**: MATLAB is a proprietary programming language widely used in scientific and engineering domains, including data science. It offers extensive numerical computing capabilities and provides a range of built-in functions for data analysis, visualization, and algorithm development. MATLAB's user-friendly interface and powerful toolboxes make it suitable for prototyping and research.\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c7026a5e-0a59-494e-9bb6-adb3bd726bb0",
+   "metadata": {
+    "tags": []
+   },
+   "source": [
+    "#### Some of the commonly used libraries used by Data Scientists include:\n",
+    "\n",
+    "1. **NumPy**: A powerful library for numerical computing in Python, providing support for large, multi-dimensional arrays and a wide range of mathematical functions.\n",
+    "\n",
+    "2. **Pandas**: A versatile library for data manipulation and analysis, offering data structures like DataFrames to efficiently handle structured data.\n",
+    "\n",
+    "3. **Matplotlib**: A popular plotting library in Python that provides a wide range of customizable visualizations for data exploration and presentation.\n",
+    "\n",
+    "4. **Seaborn**: Built on top of Matplotlib, Seaborn offers a high-level interface for creating beautiful statistical visualizations, making it easier to generate insightful plots.\n",
+    "\n",
+    "5. **Scikit-learn**: A comprehensive machine learning library that provides a wide array of algorithms and tools for tasks such as classification, regression, clustering, and dimensionality reduction.\n",
+    "\n",
+    "6. **TensorFlow**: An open-source library developed by Google for deep learning, offering a flexible framework to build and train neural networks across different platforms.\n",
+    "\n",
+    "7. **PyTorch**: Another popular deep learning library that provides dynamic computational graphs and a more intuitive approach to building and training neural networks.\n",
+    "\n",
+    "8. **Keras**: A high-level neural networks API that runs on top of TensorFlow or other deep learning frameworks, simplifying the process of building and training deep learning models.\n",
+    "\n",
+    "9. **Statsmodels**: A library that focuses on statistical modeling and provides a wide range of statistical models, hypothesis tests, and statistical tools for data analysis.\n",
+    "\n",
+    "10. **SciPy**: A library that builds on NumPy and provides additional functionality for scientific and technical computing, including optimization, integration, linear algebra, and more.\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "97dda5bd-8935-41fa-b41a-59e9f0376e63",
+   "metadata": {},
+   "source": [
+    "| Data Science Tools |\n",
+    "|-------------------|\n",
+    "| Jupyter Notebook  |\n",
+    "| RStudio           |\n",
+    "| Visual Studio Code|\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "34e4ba77-4092-49bc-a9f8-35feedb27123",
+   "metadata": {},
+   "source": [
+    "### Below are a few examples of evaluating arithmetic expressions in Python"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "cdb45ab9-99df-45c8-9f1a-0e2af2cdba8f",
+   "metadata": {
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "17"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# This a simple arithmetic expression to mutiply then add integers\n",
+    "(3*4)+5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "116eb2b9-68ae-46dc-9edb-99d3dd99abcf",
+   "metadata": {
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "3.3333333333333335"
+      ]
+     },
+     "execution_count": 11,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# This will convert 200 minutes to hours by diving by 60\n",
+    "def minuite_to_hour(value):\n",
+    "    return value / 60\n",
+    "\n",
+    "minuite_to_hour(200)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a9e15396-fd24-4fc7-a909-0f3d0ce4dab6",
+   "metadata": {},
+   "source": [
+    "**Objectives:**\n",
+    "\n",
+    "- Provide an overview of popular programming languages used in data science.\n",
+    "- Discuss commonly used data science libraries and their functionalities.\n",
+    "- Present a summary of essential tools and frameworks in the data science ecosystem.\n",
+    "- Introduce open-source development environment tools used in data science.\n",
+    "- Offer key takeaways to enhance understanding of the data science landscape.\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ca4fb0bf-9b93-495b-8860-abc5a7efe917",
+   "metadata": {},
+   "source": [
+    "## Author\n",
+    "TEAC HYEON KIM\n"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python",
+   "language": "python",
+   "name": "conda-env-python-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.12"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
